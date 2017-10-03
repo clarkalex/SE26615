@@ -2,9 +2,9 @@
 $table = "<table>";
 for ($rows=1; $rows <=9; $rows++){
     $table .= "\t<tr>";
-    for ($cols=1; $cols<=9; $cols++){
+    for ($cols=1; $cols<=9; $cols++):
         $table .= "<td>" . $rows * $cols . "</td>";
-    }
+    endfor;
     $table .= "</tr>\n";
 }
 $table .= "</table>";
