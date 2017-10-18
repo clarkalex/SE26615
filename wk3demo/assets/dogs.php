@@ -46,3 +46,9 @@ function addDog($db, $name, $gender, $fixed) {
         die("There was a problem giving birth to the puppy.");
     }
 }
+function getDog($db, $id) {
+    $sql = $db->prepare("SELECT * FROM animals WHERE id=:id");
+    $sql->bindParam(':id', $id, PDO::PARAM_INT);
+    $sql->execute();
+    return $sql->fetch(PDO::FETCH_ASSOC);
+}

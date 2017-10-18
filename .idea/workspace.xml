@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="96dbae1a-40a2-48ec-828c-84c2b02e9bba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk3demo/assets/dogform.php" afterPath="$PROJECT_DIR$/wk3demo/assets/dogform.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk3demo/assets/dogs.php" afterPath="$PROJECT_DIR$/wk3demo/assets/dogs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk3demo/index.php" afterPath="$PROJECT_DIR$/wk3demo/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,21 +15,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.62777776">
+    <splitter split-orientation="vertical" split-proportion="0.23472223">
       <split-first>
         <leaf>
           <file leaf-file-name="dogs.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wk3demo/assets/dogs.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="614">
-                  <caret line="18" column="185" lean-forward="true" selection-start-line="18" selection-start-column="185" selection-end-line="18" selection-end-column="185" />
+                <state relative-caret-position="435">
+                  <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
                   <folding>
+                    <element signature="n#getDogsAsTable#0;n#!!top" expanded="false" />
                     <element signature="n#addDog#0;n#!!top" expanded="false" />
-                    <marker date="1508176994801" expanded="true" signature="165:186" ph="SELECT * FRO... animals" />
-                    <marker date="1508176994801" expanded="true" signature="331:995" ph="..." />
-                    <marker date="1508176994801" expanded="true" signature="1418:1467" ph="INSERT INTO animals... " />
-                    <marker date="1508176994801" expanded="true" signature="1418:1474" ph="INSERT INTO animals... " />
-                    <marker date="1508176994801" expanded="true" signature="1418:1475" ph="INSERT INTO animals... " />
+                    <marker date="1508348148403" expanded="true" signature="165:186" ph="SELECT * FRO... animals" />
+                    <marker date="1508348148403" expanded="true" signature="331:995" ph="..." />
+                    <marker date="1508348148403" expanded="true" signature="1418:1467" ph="INSERT INTO animals... " />
+                    <marker date="1508348148403" expanded="true" signature="1418:1474" ph="INSERT INTO animals... " />
+                    <marker date="1508348148403" expanded="true" signature="1418:1475" ph="INSERT INTO animals... " />
+                    <marker date="1508348148403" expanded="true" signature="1822:1856" ph="SELECT * FRO... animals" />
                   </folding>
                 </state>
               </provider>
@@ -37,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wk3demo/index.php">
+          <file leaf-file-name="dogform.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk3demo/assets/dogform.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+                <state relative-caret-position="480">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -72,9 +76,9 @@
         <option value="$PROJECT_DIR$/wk3demo/assets/header.php" />
         <option value="$PROJECT_DIR$/wk3demo/assets/footer.php" />
         <option value="$PROJECT_DIR$/wk3demo/assets/dbconn.php" />
-        <option value="$PROJECT_DIR$/wk3demo/assets/dogform.php" />
-        <option value="$PROJECT_DIR$/wk3demo/index.php" />
         <option value="$PROJECT_DIR$/wk3demo/assets/dogs.php" />
+        <option value="$PROJECT_DIR$/wk3demo/index.php" />
+        <option value="$PROJECT_DIR$/wk3demo/assets/dogform.php" />
       </list>
     </option>
   </component>
@@ -110,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,8 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,31 +181,32 @@
       <workItem from="1507742427983" duration="5796000" />
       <workItem from="1508167098451" duration="1869000" />
       <workItem from="1508169107496" duration="7680000" />
+      <workItem from="1508346624914" duration="1998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19085000" />
+    <option name="totallyTimeSpent" value="21083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15664062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -211,17 +216,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15667719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +242,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wk3demo/assets/dogs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="185" lean-forward="false" selection-start-line="18" selection-start-column="185" selection-end-line="18" selection-end-column="185" />
+          <folding>
+            <element signature="n#getDogsAsTable#0;n#!!top" expanded="false" />
+            <element signature="n#addDog#0;n#!!top" expanded="false" />
+            <marker date="1508348148403" expanded="true" signature="165:186" ph="SELECT * FRO... animals" />
+            <marker date="1508348148403" expanded="true" signature="331:995" ph="..." />
+            <marker date="1508348148403" expanded="true" signature="1418:1467" ph="INSERT INTO animals... " />
+            <marker date="1508348148403" expanded="true" signature="1418:1474" ph="INSERT INTO animals... " />
+            <marker date="1508348148403" expanded="true" signature="1418:1475" ph="INSERT INTO animals... " />
+            <marker date="1508348148403" expanded="true" signature="1822:1856" ph="SELECT * FRO... animals" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk3demo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <marker date="1508348212973" expanded="true" signature="5:957" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="299:413" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="355:407" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="593:856" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="609:694" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="713:728" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="745:821" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="840:855" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wk2demo/formdemo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -357,12 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding>
-            <marker date="1508176196095" expanded="true" signature="9:92" ph=" Created by PhpStorm. ..." />
-            <marker date="1508176196095" expanded="true" signature="112:498" ph="{...}" />
-            <marker date="1508176196095" expanded="true" signature="220:366" ph="..." />
-            <marker date="1508176196095" expanded="true" signature="393:495" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,37 +421,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk3demo/assets/dogform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <marker date="1508176196095" expanded="true" signature="5:94" ph="..." />
-            <marker date="1508176196095" expanded="false" signature="9:91" ph=" Created by PhpStorm. ..." />
-            <marker date="1508176196095" expanded="true" signature="127:422" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk3demo/assets/dogs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="18" column="185" lean-forward="true" selection-start-line="18" selection-start-column="185" selection-end-line="18" selection-end-column="185" />
+        <state relative-caret-position="435">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
           <folding>
+            <element signature="n#getDogsAsTable#0;n#!!top" expanded="false" />
             <element signature="n#addDog#0;n#!!top" expanded="false" />
-            <marker date="1508176994801" expanded="true" signature="165:186" ph="SELECT * FRO... animals" />
-            <marker date="1508176994801" expanded="true" signature="331:995" ph="..." />
-            <marker date="1508176994801" expanded="true" signature="1418:1467" ph="INSERT INTO animals... " />
-            <marker date="1508176994801" expanded="true" signature="1418:1474" ph="INSERT INTO animals... " />
-            <marker date="1508176994801" expanded="true" signature="1418:1475" ph="INSERT INTO animals... " />
+            <marker date="1508348148403" expanded="true" signature="165:186" ph="SELECT * FRO... animals" />
+            <marker date="1508348148403" expanded="true" signature="331:995" ph="..." />
+            <marker date="1508348148403" expanded="true" signature="1418:1467" ph="INSERT INTO animals... " />
+            <marker date="1508348148403" expanded="true" signature="1418:1474" ph="INSERT INTO animals... " />
+            <marker date="1508348148403" expanded="true" signature="1418:1475" ph="INSERT INTO animals... " />
+            <marker date="1508348148403" expanded="true" signature="1822:1856" ph="SELECT * FRO... animals" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk3demo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="556">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <marker date="1508348212973" expanded="true" signature="5:957" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="299:413" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="355:407" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="593:856" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="609:694" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="713:728" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="745:821" ph="..." />
+            <marker date="1508348212973" expanded="true" signature="840:855" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk3demo/assets/dogform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
