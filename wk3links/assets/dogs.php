@@ -7,7 +7,7 @@
  */
 function getDogsAsTable($db) {
     try {
-        $sql = "SELECT * FROM dogs";
+        $sql = "SELECT * FROM animals";
         $sql = $db->prepare($sql);
         $sql->execute();
         $dogs = $sql->fetchAll(PDO::FETCH_ASSOC);
@@ -29,7 +29,7 @@ function getDogsAsTable($db) {
 }
 function deleteDog($db, $id){
     try {
-        $sql = $db->prepare("DELETE FROM dogs WHERE id = :id");
+        $sql = $db->prepare("DELETE FROM animals WHERE id = :id");
         $sql->bindParam(':id', $id, PDO::PARAM_INT);
         $sql->execute();
         return $sql->rowCount();
