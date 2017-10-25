@@ -7,7 +7,7 @@
  */
 function getDogsAsTable($db) {
     try {
-        $sql = "SELECT * FROM animals";
+        $sql = "SELECT * FROM dogs";
         $sql = $db->prepare($sql);
         $sql->execute();
         $dogs = $sql->fetchAll(PDO::FETCH_ASSOC);
@@ -30,7 +30,7 @@ function getDogsAsTable($db) {
 }
 function addDog($db, $name, $gender, $fixed) {
     try {
-        $sql = $db->prepare("INSERT INTO animals VALUES (null, :name, :gender, :fixed)");
+        $sql = $db->prepare("INSERT INTO dogs VALUES (null, :name, :gender, :fixed)");
         $sql->bindParam(':name', $name);
         $sql->bindParam(':gender', $gender);
         $sql->bindParam(':fixed', $fixed);
@@ -41,7 +41,7 @@ function addDog($db, $name, $gender, $fixed) {
     }
 }
 function getDog($db, $id) {
-    $sql = $db->prepare("SELECT * FROM animals WHERE id = :id");
+    $sql = $db->prepare("SELECT * FROM dogs WHERE id = :id");
     $sql->bindParam(':id', $id, PDO::PARAM_INT);
     $sql->execute();
     $row = $sql->fetch(PDO::FETCH_ASSOC);
@@ -49,7 +49,7 @@ function getDog($db, $id) {
 }
 function updateDog($db, $name, $gender, $fixed, $id){
     try {
-        $sql = $db->prepare("UPDATE `animals` SET name= :name, gender= :gender, fixed= :fixed WHERE id= :id");
+        $sql = $db->prepare("UPDATE `dogs` SET name= :name, gender= :gender, fixed= :fixed WHERE id= :id");
         $sql->bindParam(':name', $name, PDO::PARAM_STR);
         $sql->bindParam(':gender', $gender, PDO::PARAM_STR);
         $sql->bindParam(':fixed', $fixed, PDO::PARAM_BOOL); // treat whatever we get as a boolean, not a string
@@ -62,7 +62,7 @@ function updateDog($db, $name, $gender, $fixed, $id){
 }
 function deleteDog($db, $id){
     try {
-        $sql = $db->prepare("DELETE FROM animals WHERE id = :id");
+        $sql = $db->prepare("DELETE FROM dogs WHERE id = :id");
         $sql->bindParam(':id', $id, PDO::PARAM_INT);
         $sql->execute();
         return $sql->rowCount();
